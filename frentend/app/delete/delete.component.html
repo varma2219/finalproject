@@ -1,0 +1,11 @@
+
+<div align="center">
+    <form #deleteform="ngForm" (ngSubmit)="deletedata(deleteform)">
+    <label>PID : </label>
+    <input type="number" id="pid" name="pid" #pid (ngModel)="pid">
+    <br>
+   
+     
+     <input type="submit" value="Delete">
+</form>
+</div>

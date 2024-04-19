@@ -1,0 +1,15 @@
+<div align="center">
+    <form #updateform="ngForm" (ngSubmit)="updatedata(updateform)"> 
+    <label>PID : </label>
+    <input type="number" id="pid" name="pid" #pid (ngModel)="pid">
+    <br>
+    <label>PNAME  :</label>
+    <input type="text" id="pname" name="pname" #pname (ngModel)="pname">
+     <br>
+     <label>PAMOUNT : </label>
+     <input type="number" id="pamount" name="pamount" #pamount (ngModel)="pamount">  
+     <br>
+     
+     <input type="submit" value="Update">
+</form>
+</div>

@@ -1,0 +1,16 @@
+
+
+<table border="1">
+    <thead>
+              <tr>
+                       <th>PID</th> <th>PNAME</th> <th>PAMOUNT</th>
+              </tr>
+    </thead>
+    <tbody>
+               <tr *ngFor="let d of data">
+                    <td>{{d.pid}}</td>
+                    <td>{{d.pname}}</td>
+                    <td> {{d.pamount}}</td>
+               </tr>
+    </tbody>
+</table>

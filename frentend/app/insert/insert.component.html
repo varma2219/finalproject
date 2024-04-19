@@ -1,0 +1,16 @@
+
+<div align="center">
+    <form #insertform="ngForm" (ngSubmit)="insertdata(insertform)" >  
+    <label>PID : </label>
+    <input type="number" id="pid" name="pid" #pid (ngModel)="pid">
+    <br>
+    <label>PNAME  :</label>
+    <input type="text" id="pname" name="pname" #pname (ngModel)="pname">
+     <br>
+     <label>PAMOUNT : </label>
+     <input type="number" id="pamount" name="pamount" #pamount (ngModel)="pamount">  
+     <br>
+     
+     <input type="submit" value="Insert">
+</form>
+</div>
